@@ -1,0 +1,61 @@
+.App {
+ text-align: center;
+ font-family: 'Courier New', Courier, monospace;
+ color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.overlay{
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+}
+.moving-background{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./Assets/bg.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40% 40%;
+}
+
+
+  
+.vertical{
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: #db1709;
+    text-align: center;
+    border-radius:10px;
+    color: #fff;
+    border:none;
+    padding:7px;
+    min-height:30px; 
+    min-width: 120px;
+
+   
+  }
+  .vertical:hover {
+    background-color:#59ad00;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+  
+
+
